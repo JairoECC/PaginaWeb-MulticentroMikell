@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="./output.css" rel="stylesheet">
+    <link rel="stylesheet" href="./style-multicentroM.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link rel="shortcut icon" href="img/logo-multicenter.png" type="image/x-icon">
+    <script src="script/scroll.js"></script>
+    <script src="script/click-out.js"></script>
+    <title>Multicentro Mikell</title>
+</head>
+<body>
+    <nav class="navbar bg-gradient-to-r from-my-colour to-blue-dark  flex items-center fixed top-0 w-full">
+        <a href="index.html" class="logo-multicentro text-white ml-28 text-2xl font-bold border border-white rounded px-2 py-1">Multicentro Mikell</a>
+        <label id="btn_menu" for="check" class="checkbtn text-white w-10 h-10 rounded-full hover:bg-sky-600 ">
+            <i class="fas fa-bars" ></i>
+        </label>
+        <input type="checkbox" id="check">  
+        <ul class="flex space-x-8 mr-28">
+            <li class="hidden"></li>
+            <li><a href="#start" class="directions text-white hover:text-sky-400" id="directions-one">INICIO</a></li>
+            <li><a href="#products" class="directions text-white hover:text-sky-400" id="directions-two">PRODUCTOS</a></li>
+            <li><a href="#location" class="directions text-white hover:text-sky-400" id="directions-three">UBICACIÓN</a></li>
+            <li><a href="#about-us" class="directions text-white hover:text-sky-400" id="directions-four">ACERCA DE NOSOTROS</a></li>
+        </ul>
+    </nav> 
+    <section id="start">
+        <div class="bg-gradient-to-r from-my-colour to-blue-dark">
+            <div class="flex justify-center items-center flex-col" id="welcome">
+                <h2 class="Parrafo text-white text-4xl font-bold mt-28">Bienvenidos a Multicentro Mikell</h2>
+                <p class="sub-parrafo text-center text-sky-700 text-[20px] mt-4">Multicentro de confianza</p>
+            </div>          
+            <div class="wave" style="height: 150px; overflow: hidden;"><svg viewBox="0 0 500 150" preserveAspectRatio="none"
+                style="height: 100%; width: 100%;">
+                <path d="M0.0,49.98 C150.00,150.00 349.20,-50.00 500.00,49.98 L500.00,150.00 L0.00,150.00 Z"
+                    style="stroke: none; fill: #F5FBFF;"></path>
+            </svg></div>
+        </div>
+    </section>   
+
+    <section class="products bg-body-color py-8" id="products">
+        <h2 class="sub-tittles text-center text-blue-full-dark font-bold text-[35px]">Productos</h2>
+        <h3 class="ml-40 flex items-center mt-10">
+            <span id="numbers" class="flex items-center justify-center w-8 h-8 bg-gradient-to-r from-my-colour to-blue-dark rounded-full text-white text-lg font-bold">
+                1
+            </span>
+            <span class="number-product ml-2 font-bold text-[18px] text-gray-700">Venta de productos tecnológicos</span>
+        </h3>
+        <h3 class="ml-40 flex items-center mt-7">
+            <span id="numbers" class="flex items-center justify-center w-8 h-8 bg-gradient-to-r from-my-colour to-blue-dark rounded-full text-white text-lg font-bold">
+                2
+            </span>
+            <span class="number-product ml-2 font-bold text-[18px] text-gray-700">Venta de regalos y perfumería</span>
+        </h3>
+        <h3 class="ml-40 flex items-center mt-7">
+            <span id="numbers" class="flex items-center justify-center w-8 h-8 bg-gradient-to-r from-my-colour to-blue-dark rounded-full text-white text-lg font-bold">
+                3
+            </span>
+            <span class="number-product ml-2 font-bold text-[18px] text-gray-700">Venta de libros, golosinas y muchos más</span>
+        </h3>              
+        <div class="container mx-auto px-2 pt-4 pb-12 text-gray-800 mt-10">
+            <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-8">
+                <!-- Card 1 -->
+                <div class="tecnology bg-white hover:bg-gray-100 border border-gray-200 p-4 rounded-lg shadow-sm">
+                    <img src="img/imgtec.png" alt="Producto 1" class="w-full h-64 object-cover mb-4 rounded-lg">
+                    <div class="text-start mt-7">
+                        <div class="flex items-center mb-2 ">
+                            <i class="fas fa-chevron-right fa-xs text-blue-dark mr-2"></i>
+                            <p id="information-products" class="text-[15px] leading-none font-bold">Descubre la innovación en tus manos</p>
+                        </div>
+                        <div class="flex items-center mb-2 mt-4">
+                            <i class="fas fa-chevron-right fa-xs text-blue-dark mr-2"></i>
+                            <p id="information-products" class="text-[15px] leading-none font-bold">Potencia tu mundo con lo último en tecnología</p>
+                        </div>
+                        <div class="flex items-center mt-4">
+                            <i class="fas fa-chevron-right fa-xs text-blue-dark mr-2"></i>
+                            <p id="information-products" class="text-[15px] leading-none font-bold">Explora la vanguardia tecnológica que te enamorará</p>
+                        </div>
+                    </div>
+                </div>                                                              
+                <!-- Card 2 -->
+                <div class="gifts-and-perfumes bg-white hover:bg-gray-100 border border-gray-200 p-4 rounded-lg shadow-sm ">
+                    <img src="img/gifts-and-perfumes.png" alt="Producto 2" class="w-full h-64 object-cover mb-4 rounded-lg">
+                    <div class="text-start mt-7">
+                        <div class="flex items-center mb-2 ">
+                            <i class="fas fa-chevron-right fa-xs text-blue-dark mr-2"></i>
+                            <p id="information-products" class="text-[15px] leading-none font-bold ">Sorprende con momentos memorables</p>
+                        </div>
+                        <div class="flex items-center mb-2 mt-4">
+                            <i class="fas fa-chevron-right fa-xs text-blue-dark mr-2"></i>
+                            <p id="information-products" class="text-[15px] leading-none font-bold">Encuentra el regalo perfecto para cada ocasión</p>
+                        </div>
+                        <div class="flex items-center mt-4">
+                            <i class="fas fa-chevron-right fa-xs text-blue-dark mr-2"></i>
+                            <p id="information-products" class="text-[15px] leading-none font-bold">Aroma y estilo: regalos que dejan huella</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- Card 3 -->
+                <div class="books bg-white hover:bg-gray-100 border border-gray-200 p-4 rounded-lg shadow-sm ">
+                    <img src="img/books.png" alt="Producto 3" class="w-full h-64 object-cover mb-4 rounded-lg">
+                    <div class="text-start mt-7">
+                        <div class="flex items-center mb-2 ">
+                            <i class="fas fa-chevron-right fa-xs text-blue-dark mr-2"></i>
+                            <p id="information-products" class="text-[15px] leading-none font-bold ">Viaja a mundos inexplorados entre páginas</p>
+                        </div>
+                        <div class="flex items-center mb-2 mt-4">
+                            <i class="fas fa-chevron-right fa-xs text-blue-dark mr-2"></i>
+                            <p id="information-products" class="text-[15px] leading-none font-bold">Conoce historias que inspiran y transforman</p>
+                        </div>
+                        <div class="flex items-center mt-4">
+                            <i class="fas fa-chevron-right fa-xs text-blue-dark mr-2"></i>
+                            <p id="information-products" class="text-[15px] leading-none font-bold">Convierte cada página en una nueva aventura</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- Card 4 -->
+                <div class="candies bg-white hover:bg-gray-100 border border-gray-200 p-4 rounded-lg shadow-sm ">
+                    <img src="img/candies.png" alt="Producto 4" class="w-full h-64 object-cover mb-4 rounded-lg">
+                    <div class="text-start mt-7">
+                        <div class="flex items-center mb-2 ">
+                            <i class="fas fa-chevron-right fa-xs text-blue-dark mr-2"></i>
+                            <p id="information-products" class="text-[15px] leading-none font-bold ">Dulzura que alegra tus días</p>
+                        </div>
+                        <div class="flex items-center mb-2 mt-4">
+                            <i class="fas fa-chevron-right fa-xs text-blue-dark mr-2"></i>
+                            <p id="information-products" class="text-[15px] leading-none font-bold">Deléitate con tentaciones irresistibles</p>
+                        </div>
+                        <div class="flex items-center mt-4">
+                            <i class="fas fa-chevron-right fa-xs text-blue-dark mr-2"></i>
+                            <p id="information-products" class="text-[15px] leading-none font-bold">Sabor y diversión en cada bocado</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="bg-body-color" id="location">
+        <div class="container mx-auto px-4 py-12">
+            <h2 class="sub-tittles text-center text-blue-full-dark font-bold text-4xl mb-8">Ubicación</h2>
+            <div class="w-full h-[500px] flex justify-center mb-8">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1032.381886659277!2d-77.06960390227738!3d-11.884951386210604!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9105d12179a89b2d%3A0x943b11cc5a114f2!2sAgente%20Interbank!5e1!3m2!1ses-419!2spe!4v1702155193427!5m2!1ses-419!2spe" 
+                    width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+            <div class="text-center" id="ubication-information-div">
+                <p id="ubication-information" class="text-xl text-gray-700 leading-loose">Estamos ubicados en un lugar increíble, esperando tu visita. Descubre una amplia variedad de productos tecnológicos, regalos, y mucho más en nuestro Multicentro Mikell.</p>
+                <a href="https://wa.me/51980612444?text=¡Hola! Estoy interesado en obtener más información." 
+                   class="mt-8 inline-block px-6 py-3 bg-blue-dark text-white font-semibold rounded-lg hover:bg-blue-900 transition duration-300" target="_blank">
+                   ¡Contáctanos!
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <section id="about-us" class="bg-white">
+        <div class="container-about text-center">
+            <h2 id="name-end" class="text-4xl font-bold mb-8 mt-10">Multicentro Tecnológico Mikell E.I.R.L</h2>
+            <h1 class="text-gray-700 mb-8 leading-loose mt-10">
+                Especializada en atención al público en agentes de diversos bancos, venta al por menor de ordenadores, equipo periférico, programas de informática y equipos de telecomunicaciones en comercios especializados.
+            </h1>
+            <h1 class="text-gray-700 mb-8 leading-loose">
+                Fue creada y fundada el 01/03/2019. Está registrada dentro de las sociedades mercantiles y comerciales como una empresa individual de responsabilidad limitada (EIRL).
+            </h1>
+            <h1 class="text-gray-700 mb-8 leading-loose">
+                
+                Si deseas conocer más sobre esta empresa, negocio u organización, puedes llamar y solicitar información.
+            </h1>
+        </div>
+    </section>
+    <footer class="bg-gray-800 flex flex-col items-center" id="footer">
+        <div class="flex justify-center border-b-[1px] border-white w-[82%] h-28" id="footer-information-one">
+            <div class="mr-56 mt-8" id="one">
+                <h4 class="text-white font-bold border-b-2 text-center border-white">Teléfono</h4>
+                <p class="text-gray-400">980612444</p>
+            </div>
+            <div class="mr-56 mt-8" id="two">
+                <h4 class="text-white font-bold border-b-2 text-center border-white">Correo</h4>
+                <p class="text-gray-400">maribel_treb25@hotmail.com</p>
+            </div>
+            <div class="mt-8" id="three">
+                <h4 class="text-white font-bold border-b-2 text-center border-white">Localidad</h4>
+                <p class="text-gray-400">Lima/Lima/Puente Piedra</p>
+            </div>
+        </div>
+        <div class=" flex justify-center items-center h-24" id="footer-information-two">
+            <div class="mr-56" id="whatsapp">
+                <a href="https://wa.me/51980612444" target="_blank" id="whatsapp" class="text-white  w-8 h-8 rounded-full hover:bg-gray-600 flex items-center justify-center">
+                    <!-- Ícono de WhatsApp -->
+                    <i class="fab fa-whatsapp"></i>
+                </a>
+            </div>
+            <div class="mr-56" id="copyright">
+                <h2 class="titulo-final text-white">© Copyright 2023, Multicentro Tecnológico Mikell E.I.R.L</h2>
+            </div>
+            <div class="" id="terms-and-Conditions">
+                <a href="index.html" class="logo-end text-white text-2xl font-bold border border-white rounded px-2 py-1">Multicentro Mikell</a>
+            </div>
+        </div>
+    </footer>        
+</body>
+</html>
